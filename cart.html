@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Ecommers Project">
+    <title>Pearl Parlour Carts</title>
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link box icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav_upper flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link"><img class="profiles-icon" src="image/profile-pic.png" alt="profile icon"></a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_brand nav_link">Pearl Parlour</a>
+            </li>
+            <li class="nav_list">
+                <a href="cart.html" class=" nav_link"><span><i class='bx bx-cart'></i></span>Cart 2 Products - $124.40</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+    <main>
+        <div class="cart flex-center">
+            <div class="cart-items">
+                <div class="cart-item-heading card">
+                    <h2>Shopping Cart [2 items]</h2>
+                    <div class="cart-items-actions">
+                        <label for="select">
+                            <input type="checkbox" name="select" id="select">Select all items</label>
+                            <button class="btn">
+                                <i class='bx bxs-trash-alt'></i>
+                            </button>
+                            <button class="btn">Shop More</button>
+                        </div>
+                </div>
+                <div class="cart-item flex-space-around card">
+                    <input type="checkbox" name="" id="">
+                    <img src="image/pexels-aa-aa-8727784 (1).jpg" alt="product1"class="cart-item-img">
+                    <div class="cart-items-description">
+                        <h3 class="product-name">
+                            Pearl Nacklace
+                        </h3>
+                        <h4 class="product-price">$13k</h4>
+                        <p class="cart-items-shipping">
+                            Free Shipping
+                        </p>
+                    </div>
+                    <div class="cart-item-actions">
+                        <button class="btn">
+                            <i class='bx bxs-trash-alt'></i>
+                        </button>
+                        <div>
+                            <button class="btn"><i class='bx bx-plus'></i></button>
+                        <span>3</span>
+                        <button class="btn"><i class='bx bx-minus'></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item flex-space-around card">
+                    <input type="checkbox" name="" id="">
+                    <img src="image/pexels-萍-罗-12999499 (1).jpg" alt="product2"class="cart-item-img">
+                    <div class="cart-items-description">
+                        <h3 class="product-name">
+                            Pearl Antique Full Set
+                        </h3>
+                        <h4 class="product-price">$42k</h4>
+                        <p class="cart-items-shipping">
+                            Free Shipping
+                        </p>
+                    </div>
+                    <div class="cart-item-actions">
+                        <button class="btn">
+                            <i class='bx bxs-trash-alt'></i>
+                        </button>
+                        <div>
+                            <button class="btn"><i class='bx bx-plus'></i></button>
+                            <span>3</span>
+                            <button class="btn"><i class='bx bx-minus'></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-payment">
+                <div class="cart-payment-summary card">
+                    <h2>Payment Summary</h2>
+                    <div>
+                        <p>Subtotal:</p>
+                        <p>$55k</p>
+                        </div>
+                         <div>
+                        <p>Shipping Cost:</p>
+                        <p>$20</p>
+                        </div>
+                         <div>
+                        <p>Total:</p>
+                        <p>$55.02k</p>
+                        </div>
+                        <button class="btn cart-payment-btn">Pay Now</button>
+                </div>
+                <div class="cart-payment-methods card">
+                    <h2>Payment Methods</h2>
+                    <div>
+                        <i class='bx bxl-visa'></i>
+                        <i class='bx bxl-paypal'></i>
+                        <i class='bx bxl-mastercard'></i>
+                        <i class='bx bxl-bitcoin'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>
+    <!-- footer starts here -->
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="email" id="subscribe" name="subscribe"
+        class="footer_input"
+        placeholder="Enter your Email:">
+        <button class="btn btn-subscribe">subscribe</button>
+    </div>
+    <div>
+        <p>&copy; Copyright 2023 Mir Masud Express. All rights rserved</p>
+    </div>
+</footer>
+<script src="./scripts/script.js"></script>
+    <!-- footer ends here -->
+</body>
+</html>

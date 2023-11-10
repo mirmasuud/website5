@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Ecommers Project">
+    <title>Pearl Parlour Profiles</title>
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link box icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav_upper flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link"><img class="profiles-icon" src="image/profile-pic.png" alt="profile icon"></a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_brand nav_link">Pearl Parlour</a>
+            </li>
+            <li class="nav_list">
+                <a href="cart.html" class=" nav_link"><span><i class='bx bx-cart'></i></span>Cart 2 Products - $124.40</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+    <main>
+        <section class="profile flex-center">
+            <h2 class="section-title text-center">User Profile</h2>
+            <div class="card flex-center">
+                <img src="/image/profile-pic.png" alt="profile" class="profile-img">
+                <h2 class="profile-name">Mir Masud</h2>
+                <p class="profile-email">
+                    lorem@gmail.com
+                </p>
+                <p class="profile-about">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <div class="profile-buttons">
+                    <button class="btn profile-edit-btn">
+                        <i class='bx bxs-edit'></i>
+                    </button>
+                    <button class="btn profile-delete-btn">
+                        <i class='bx bxs-trash'></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+</main>
+    <!-- footer starts here -->
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="email" id="subscribe" name="subscribe"
+        class="footer_input"
+        placeholder="Enter your Email:">
+        <button class="btn btn-subscribe">subscribe</button>
+    </div>
+    <div>
+        <p>&copy; Copyright 2023 Mir Masud Express. All rights rserved</p>
+    </div>
+</footer>
+<script src="./scripts/script.js"></script>
+    <!-- footer ends here -->
+</body>
+</html>
